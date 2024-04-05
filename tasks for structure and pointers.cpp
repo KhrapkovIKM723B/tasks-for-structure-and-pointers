@@ -1,19 +1,14 @@
-﻿// tasks for structure and pointers.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
-#include <iostream>
+﻿#include <iostream>
 using namespace std;
 #include <string>
 
 
-
 struct Student
 
-
 {
-	int years[4];
-	string surname[4];
-	float average[4];
+	int years;
+	string surname;
+	float average;
 };
 
 int main()
@@ -25,16 +20,9 @@ int main()
 
 
 
-
-
-
-
 	Student Golyb;
 	Golyb.years = 2002;
 	Golyb.average = 85;
-
-
-
 
 
 	
@@ -44,11 +32,9 @@ int main()
 
 
 
-
-
 	Student Goys;
 	Goys.years = 2003;
 	Goys.average = 95;
 
-
+    return 0;
 }
